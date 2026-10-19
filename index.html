@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Ruben Abraham Shibu — Security Engineer specializing in offensive security, application security, cloud security, AI security and security compliance. CEHv11 certified.">
-<meta name="keywords" content="Ruben Abraham Shibu, Security Engineer, Offensive Security, Application Security, Cloud Security, AI Security, AI Pentesting, Security Research, Security Compliance, Web Application Penetration Testing, API Penetration Testing, Mobile Application Security Testing, Network Penetration Testing, Secure Code Review, Interactive Application Security Testing, IAST, Dynamic Application Security Testing, DAST, Static Application Security Testing, SAST, Software Composition Analysis, SCA, Security Operations, SecOps, AI/ML Security Testing, AI-Assisted Penetration Testing, Cloud Security Testing, Cloud Configuration Review, VAPT, Penetration Tester, Burp Suite, Checkmarx, CheckmarxOne, Black Duck, CEHv11, Kerala, Bangalore, India">
-<title>Ruben Abraham Shibu — Security Researcher</title>
+<meta name="description" content="Ruben Abraham Shibu — Application Security Engineer with 4+ years in VAPT, DevSecOps, Secure SDLC, cloud and AI security. CEH v11 certified. Ex-Synopsys, Black Duck; now at Ultraviolet Cyber.">
+<meta name="keywords" content="Application Security Engineer, DevSecOps, Secure SDLC, Azure Security, OWASP Top 10, Threat Modeling, IAM, ISO 27001, GDPR, DPDP, BITS Pilani, Ultraviolet Cyber, Synopsys, Ruben Abraham Shibu, Security Engineer, Offensive Security, Application Security, Cloud Security, AI Security, AI Pentesting, Security Research, Security Compliance, Web Application Penetration Testing, API Penetration Testing, Mobile Application Security Testing, Network Penetration Testing, Secure Code Review, Interactive Application Security Testing, IAST, Dynamic Application Security Testing, DAST, Static Application Security Testing, SAST, Software Composition Analysis, SCA, Security Operations, SecOps, AI/ML Security Testing, AI-Assisted Penetration Testing, Cloud Security Testing, Cloud Configuration Review, VAPT, Penetration Tester, Burp Suite, Checkmarx, CheckmarxOne, Black Duck, CEHv11, Kerala, Bangalore, India">
+<title>Ruben Abraham Shibu — Application Security Engineer</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -176,6 +176,11 @@
   .post .post-meta{ font-family:var(--mono); font-size:12px; color:var(--dim); }
   .post h3{ font-size:16px; margin-top:3px; color:#f2f5f1; }
   .post .post-body{ margin-top:8px; font-size:14.5px; color:var(--dim); white-space:pre-wrap; }
+  .post .post-link{ display:inline-block; margin-top:10px; font-family:var(--mono); font-size:12.5px; }
+  .post .post-tag{
+    display:inline-block; font-family:var(--mono); font-size:11px; color:var(--green);
+    border:1px solid #1e3327; background:#0d1712; padding:2px 8px; border-radius:4px; margin-left:8px;
+  }
   .del-btn{
     margin-top:10px; font-family:var(--mono); font-size:11.5px; color:#c9776b;
     background:transparent; border:1px solid #3a2521; padding:3px 9px; border-radius:5px; cursor:pointer;
@@ -196,6 +201,13 @@
   #post-publish:hover{ opacity:.88; }
   #post-status{ font-family:var(--mono); font-size:12px; color:var(--dim); margin-left:10px; }
 
+  .btn{ display:inline-block; font-family:var(--mono); font-size:13px; color:#0a1310; background:var(--green); padding:9px 16px; border-radius:5px; font-weight:500; }
+  .btn:hover{ opacity:.88; text-decoration:none; }
+  .rsub{ font-family:var(--mono); font-size:12.5px; color:var(--amber); margin:34px 0 14px; padding-bottom:8px; border-bottom:1px solid var(--line); }
+  .comp{ display:grid; grid-template-columns:190px 1fr; gap:12px 20px; margin:0; font-size:14px; }
+  .comp dt{ font-family:var(--mono); font-size:12px; color:var(--text); }
+  .comp dd{ margin:0; color:var(--dim); }
+  @media (max-width:600px){ .comp{ grid-template-columns:1fr; gap:2px; } .comp dd{ margin-bottom:12px; } }
   footer{ text-align:center; padding:20px 0 40px; font-family:var(--mono); font-size:11.5px; color:#4b564f; }
 </style>
 </head>
@@ -207,7 +219,9 @@
     <span class="path">ruben@secops:~$</span>
     <nav class="tabs">
       <button id="tab-home" aria-current="true">home</button>
+      <button id="tab-resume" aria-current="false">resume</button>
       <button id="tab-blog" aria-current="false">blog</button>
+      <button id="tab-research" aria-current="false">research</button>
     </nav>
   </div>
 
@@ -224,17 +238,10 @@
         <div class="hero-text">
           <p class="prompt"><span class="u">ruben@secops</span><span class="c">:~$</span> whoami</p>
           <h1>Ruben Abraham Shibu</h1>
-          <div class="role" >Security Engineer <br> Offensive Security · AppSec · Cloud Security · AI Security</div>
-          <p class="tag" style="text-align: justify;">I break things on purpose so they don't break for real. CEHv11-certified, with 3+ years spent moving between the attacker's seat and the defender's pentesting web, mobile and network targets by day, and picking apart how AI systems fail by night. I like the moment a &quot;secure&quot; system turns out not to be, and I like explaining why in a way a developer can actually act on. Off the clock, I'm usually organizing something for IEEE or arguing that the internet needs more cyber hygiene awareness, not less.</p>
+          <div class="role">Application Security Engineer · DevSecOps · VAPT · Secure SDLC</div>
+          <p class="tag">Application Security Engineer with 4+ years securing enterprise software at Synopsys, Black Duck and now Ultraviolet Cyber. I lead web, Android, API and network penetration tests, run SAST, IAST and SCA inside CI/CD pipelines, and turn findings into fixes developers actually ship. CEH v11 certified, fluent across Java, Python, JavaScript, TypeScript, C# and C++ codebases, with growing depth in Azure security, cloud configuration review and AI/LLM security testing. Currently pursuing an M.Tech in Software Systems (Cyber Security) at BITS Pilani and chairing IEEE Future Networks for the Kerala Section.</p>
           <div class="badges">
-            <span class="badge">CEHv11</span>
-            <span class="badge">VAPT</span>
-            <span class="badge">SAST</span>
-            <span class="badge">IAST</span>
-            <span class="badge">SCA</span>
-            <span class="badge">SecOps</span>
-            <span class="badge">LLM</span>
-            <span class="badge">Cloud</span>
+            <span class="badge">CEH v11</span><span class="badge">4+ years</span><span class="badge">VAPT · SAST · IAST · SCA</span><span class="badge">Azure · ISO 27001 · GDPR · DPDP</span>
           </div>
           <div class="badges" style="margin-top:8px;">
             <a class="badge" href="https://github.com/rubenshibu" target="_blank" rel="noopener">github.com/rubenshibu &#8599;</a>
@@ -335,13 +342,13 @@
             <div class="chips">
               <span class="chip">Cloud Security Testing</span><span class="chip">Cloud Config Review</span>
               <span class="chip">AI/ML Security Testing</span><span class="chip">AI-Assisted Pentesting</span>
-              <span class="chip">Security Compliance</span>
+              <span class="chip">Security Compliance</span><span class="chip">Azure Security</span><span class="chip">IAM / RBAC</span><span class="chip">ISO 27001</span><span class="chip">GDPR</span><span class="chip">DPDP</span>
             </div>
           </div>
           <div class="skillcat">
             <h4>LANGUAGES</h4>
             <div class="chips">
-              <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C / C#</span>
+              <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C / C++ / C#</span>
               <span class="chip">JavaScript</span><span class="chip">TypeScript</span>
             </div>
           </div>
@@ -349,7 +356,7 @@
             <h4>PRACTICE</h4>
             <div class="chips">
               <span class="chip">Vulnerability Remediation</span><span class="chip">Compliance</span>
-              <span class="chip">Threat Modeling</span><span class="chip">Public Speaking</span>
+              <span class="chip">Threat Modeling</span><span class="chip">OWASP Top 10</span><span class="chip">Incident Response</span><span class="chip">Public Speaking</span>
             </div>
           </div>
         </div>
@@ -359,6 +366,7 @@
         <p class="prompt"><span class="u">ruben@secops</span><span class="c">:~$</span> cat education.log volunteering.log</p>
         <h2 class="sect">Education &amp; Involvement</h2>
         <ul class="rowlist">
+          <li><span class="role">M.Tech, Software Systems (Cyber Security) — BITS Pilani</span><span class="when">exp. 2028</span></li>
           <li><span class="role">B.Tech, Computer Science — APJ Abdul Kalam Technological University</span><span class="when">2022</span></li>
           <li><span class="role">Chair, IEEE Future Networks — Kerala Section</span><span class="when">2025 —</span></li>
           <li><span class="role">Treasurer, IEEE ComSoc Kerala Chapter</span><span class="when">2023 —</span></li>
@@ -384,7 +392,7 @@
           </div>
           <div class="contact-card">
             <div class="k">LOCATION</div>
-            <div class="v">Bengaluru, India</div>
+            <div class="v">Kerala, India</div>
           </div>
         </div>
         <p class="prompt" style="margin-top:22px;"><span class="u">ruben@secops</span><span class="c">:~$</span> <span class="cursor"></span></p>
@@ -415,6 +423,70 @@
       <p class="prompt" style="margin-top:22px;"><span class="u">ruben@secops</span><span class="c">:~$</span> <span class="cursor"></span></p>
     </div>
 
+    <!-- RESUME VIEW -->
+    <div id="view-resume" style="display:none;">
+      <p class="prompt"><span class="u">ruben@secops</span><span class="c">:~$</span> cat resume.md</p>
+      <h2 class="sect">Resume</h2>
+      <a class="btn" href="resume.pdf" download>Download PDF</a>
+
+      <div class="rsub">summary</div>
+      <p style="color:var(--dim);font-size:14.5px;margin:0;">Cybersecurity professional and Certified Ethical Hacker (CEH v11) with 4+ years in application security, offensive security, Secure SDLC, DevSecOps, vulnerability management and enterprise consulting. Hands-on across web, Android, REST/SOAP API and network assessments; SAST, IAST, SCA, secure code review, threat modeling and remediation. Secures CI/CD workflows with Checkmarx, Checkmarx One, Seeker and Black Duck, with working knowledge of Azure security, cloud configuration review, IAM/RBAC, PII protection, ISO 27001, GDPR and DPDP.</p>
+
+      <div class="rsub">core competencies</div>
+      <dl class="comp">
+        <dt>Application &amp; API Security</dt><dd>Web and Android testing, REST/SOAP API security, OWASP Top 10, authentication and authorization testing, secure code review, threat modeling</dd>
+        <dt>DevSecOps &amp; Secure SDLC</dt><dd>CI/CD security, SecOps, SAST, IAST, SCA, vulnerability triage, remediation validation, secure coding guidance</dd>
+        <dt>VAPT &amp; Security Testing</dt><dd>Burp Suite, OWASP ZAP, MobSF, Nmap, Nessus, Kali Linux, network penetration testing, vulnerability assessment</dd>
+        <dt>Governance, Privacy &amp; Risk</dt><dd>ISO 27001, GDPR, DPDP, risk assessment, incident response, data protection principles</dd>
+        <dt>AI Security</dt><dd>LLM security awareness, responsible AI usage, AI-assisted penetration testing</dd>
+      </dl>
+
+      <div class="rsub">experience</div>
+      <div class="job"><div class="meta">OCT 2025 — PRESENT</div><h3>Offensive Security Services, Consultant — Ultraviolet Cyber, Bangalore</h3><ul><li>Lead end-to-end web, Android, internal/external network and REST/SOAP API penetration tests using Burp Suite, OWASP ZAP, MobSF, Nmap and Nessus.</li><li>Assess authentication and authorization controls, insecure data storage and communications, input validation, business-logic flaws and sensitive-data exposure, with reproducible evidence and risk-based remediation guidance.</li><li>Perform manual and tool-assisted secure code review, SAST and IAST across Java, Python, JavaScript, TypeScript, C#, C++ and C using Checkmarx and Seeker.</li><li>Embed security into Secure SDLC and CI/CD by triaging automated findings, validating fixes and supporting closure with engineering teams.</li><li>Deliver SCA with Black Duck and Checkmarx One for vulnerable open-source components and license-compliance risk.</li><li>Advise enterprise clients on threat modeling, secure coding and vulnerability prioritization, while supporting cloud configuration review and Azure security capability development.</li></ul></div>
+      <div class="job"><div class="meta">OCT 2024 — OCT 2025</div><h3>Cyber Security Consultant — Black Duck, Bangalore</h3><ul><li>Delivered Professional and Managed Security Services for enterprise customers: assessment execution, technical reporting, remediation support and retesting.</li><li>Integrated SAST, IAST and SCA into SecOps and CI/CD workflows with Checkmarx, Checkmarx One, Seeker and Black Duck.</li><li>Ran web, mobile, API and network penetration tests focused on OWASP Top 10 risks, access-control weaknesses, insecure configurations and data exposure.</li><li>Performed secure code review across seven languages, translating findings into practical developer guidance.</li><li>Supported vulnerability management: severity validation, root-cause discussions, prioritization, remediation tracking and closure verification.</li><li>Contributed to emerging cloud security and cloud configuration review offerings.</li></ul></div>
+      <div class="job"><div class="meta">JUL 2022 — OCT 2024</div><h3>Cyber Security Consultant — Synopsys, Bangalore</h3><ul><li>Executed web application and internal/external network penetration testing with Burp Suite and industry-standard methodologies.</li><li>Performed SAST and secure code review using Checkmarx and manual analysis; ran IAST with Seeker and SCA with Black Duck and Checkmarx One.</li><li>Wrote security reports with evidence, business impact, severity, remediation and verification results for technical and non-technical stakeholders.</li><li>Worked with development and security teams to resolve findings across the SDLC, building a foundation in client-facing security delivery.</li></ul></div>
+
+      <div class="rsub">education &amp; certification</div>
+      <ul class="rowlist">
+        <li><span class="role">M.Tech, Software Systems (Cyber Security) — BITS Pilani, Work Integrated Learning Programme</span><span class="when">exp. 2028</span></li>
+        <li><span class="role">B.Tech, Computer Science — APJ Abdul Kalam Technological University (CGPA 7.29/10)</span><span class="when">2022</span></li>
+        <li><span class="role">Certified Ethical Hacker (CEH) v11</span><span class="when">EC-Council</span></li>
+      </ul>
+
+      <div class="rsub">leadership &amp; volunteering</div>
+      <ul class="rowlist">
+        <li><span class="role">Chair, IEEE Future Networks Technical Community — Kerala Section</span><span class="when">2025 —</span></li>
+        <li><span class="role">Treasurer, IEEE ComSoc — Kerala Chapter</span><span class="when">2023 —</span></li>
+        <li><span class="role">Student Cadet, Kerala Police Cyberdome</span><span class="when">2019 —</span></li>
+        <li><span class="role">Volunteer, Next Guard Cyber Security Awareness Community</span><span class="when"></span></li>
+      </ul>
+
+      <p class="prompt" style="margin-top:22px;"><span class="u">ruben@secops</span><span class="c">:~$</span> <span class="cursor"></span></p>
+    </div>
+
+    <!-- RESEARCH VIEW -->
+    <div id="view-research" style="display:none;">
+      <p class="prompt"><span class="u">ruben@secops</span><span class="c">:~$</span> ls research/</p>
+      <h2 class="sect">Research</h2>
+
+      <!--
+        HOW TO ADD A RESEARCH ENTRY:
+        Edit the JSON array below. Each entry is one object:
+        { "title": "...", "date": "YYYY-MM-DD", "tag": "e.g. AI Security / CTF / Whitepaper", "body": "plain text, use \n for line breaks", "link": "optional URL to full paper/repo, omit if none" }
+        Add a comma after the previous entry and paste a new one in. Save the file and redeploy.
+      -->
+      <script type="application/json" id="research-data">[]</script>
+
+      <div class="empty" id="research-empty">
+        <div class="glyph">&gt;_</div>
+        <p><strong style="color:var(--text)">No entries yet.</strong></p>
+        <p>Ongoing research on AI/ML security, offensive techniques and findings will be published here.</p>
+      </div>
+      <div id="research-list" style="display:none;"></div>
+
+      <p class="prompt" style="margin-top:22px;"><span class="u">ruben@secops</span><span class="c">:~$</span> <span class="cursor"></span></p>
+    </div>
+
   </div>
 </div>
 
@@ -423,19 +495,28 @@
 <script>
   const home = document.getElementById('view-home');
   const blog = document.getElementById('view-blog');
+  const research = document.getElementById('view-research');
+  const resume = document.getElementById('view-resume');
+  const tResume = document.getElementById('tab-resume');
   const tHome = document.getElementById('tab-home');
   const tBlog = document.getElementById('tab-blog');
+  const tResearch = document.getElementById('tab-research');
   function show(view){
-    const isHome = view === 'home';
-    home.style.display = isHome ? '' : 'none';
-    blog.style.display = isHome ? 'none' : '';
-    tHome.setAttribute('aria-current', isHome);
-    tBlog.setAttribute('aria-current', !isHome);
+    home.style.display = view === 'home' ? '' : 'none';
+    blog.style.display = view === 'blog' ? '' : 'none';
+    research.style.display = view === 'research' ? '' : 'none';
+    resume.style.display = view === 'resume' ? '' : 'none';
+    tResume.setAttribute('aria-current', view === 'resume');
+    tHome.setAttribute('aria-current', view === 'home');
+    tBlog.setAttribute('aria-current', view === 'blog');
+    tResearch.setAttribute('aria-current', view === 'research');
   }
   tHome.addEventListener('click', () => show('home'));
   tBlog.addEventListener('click', () => show('blog'));
+  tResearch.addEventListener('click', () => show('research'));
+  tResume.addEventListener('click', () => show('resume'));
 
-  // ---- Blog: static post rendering (edit the posts-data JSON above to add posts) ----
+  // ---- Blog & Research: static rendering (edit the JSON data blocks above to add entries) ----
   function escapeHtml(s){
     return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
@@ -443,13 +524,13 @@
     try{ return new Date(d).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}); }
     catch(e){ return ''; }
   }
-  function getPosts(){
-    try{ return JSON.parse(document.getElementById('posts-data').textContent || '[]'); }
+  function getData(id){
+    try{ return JSON.parse(document.getElementById(id).textContent || '[]'); }
     catch(e){ return []; }
   }
 
   function renderBlog(){
-    const posts = getPosts();
+    const posts = getData('posts-data');
     const listEl = document.getElementById('blog-list');
     const emptyEl = document.getElementById('blog-empty');
     if(posts.length === 0){
@@ -469,7 +550,30 @@
       </article>`).join('');
   }
 
+  function renderResearch(){
+    const items = getData('research-data');
+    const listEl = document.getElementById('research-list');
+    const emptyEl = document.getElementById('research-empty');
+    if(items.length === 0){
+      emptyEl.style.display = '';
+      listEl.style.display = 'none';
+      listEl.innerHTML = '';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    listEl.style.display = '';
+    const sorted = items.slice().sort((a,b) => new Date(b.date) - new Date(a.date));
+    listEl.innerHTML = sorted.map(p => `
+      <article class="post">
+        <div class="post-meta">${formatDate(p.date)}${p.tag ? `<span class="post-tag">${escapeHtml(p.tag)}</span>` : ''}</div>
+        <h3>${escapeHtml(p.title)}</h3>
+        <div class="post-body">${escapeHtml(p.body)}</div>
+        ${p.link ? `<a class="post-link" href="${escapeHtml(p.link)}" target="_blank" rel="noopener">read full writeup ↗</a>` : ''}
+      </article>`).join('');
+  }
+
   renderBlog();
+  renderResearch();
 </script>
 
 </body>
